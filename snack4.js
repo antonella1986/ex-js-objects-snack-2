@@ -16,4 +16,4 @@ const restaurant = {
 	isOpen: false,
 };
 
-//per clonare l'oggetto chef il metodo migliore è lo spread, perché non ci sono proprietà annidate, mentre per restaurant è meglio usare lo structuredClone, perché contiene Date (a causa del quale il metodo precedente non funzionerebbe)
+//per clonare l'oggetto chef il metodo migliore è lo spread, perché non ci sono proprietà annidate, mentre per restaurant è meglio usare lo structuredClone, perché contiene Date (a causa del quale il metodo precedente non funzionerebbe, perché trasformerebbe la data in formato JSON)
